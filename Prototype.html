@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Prototype</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/prototype.css" />
+    <script src="resources/js/jquery.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/prototype.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row salesPerson">
+            <div class="col-md-9">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="topmargin text-right">
+                        <img src="resources/img/salesman.png" class="character">
+                    </div>
+
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="btn-group btn-group-justified" id="btn_back">
+                                <a class="btn btn-primary" onclick="home()">
+                                    <h4>
+                                        <span class="glyphicon glyphicon-home"></span> Home</h4>
+                                </a>
+                                <a class="btn btn-danger" onclick="back()">
+                                    <h4>
+                                        <span class="glyphicon glyphicon-step-backward"></span> Back</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-5"></div>
+                    </div>
+                    <div class="row">
+                        <div class="balloon">
+                            <h1 id="typewriter"></h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div id="topRight"></div>
+            </div>
+        </div>
+        <div class="row otherContent">
+            <div class="col-md-12" id="content"></div>
+        </div>
+    </div>
+</body>
+
+</html>

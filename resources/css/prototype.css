@@ -1,0 +1,117 @@
+html, body, .container-fluid {
+    height:99%;
+    width:99%;
+}
+
+.container-fluid {
+    background: url("../img/background.jpg") center center;
+    margin: 5px;
+    border: 15px solid rgb(255, 255, 255);    
+    border-radius: 3%;
+    box-shadow: 4px 4px 3px #000;
+}
+
+.salesPerson{
+height:15%;
+}
+
+.otherContent{
+    height:85%;
+}
+
+.balloon {
+    background: rgb(255, 255, 255);    
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15%;    
+    border : 2px solid rgb(124, 124, 255);
+}
+
+
+.input_form{
+    height:80px;
+    width:100%;
+    background: white;
+    border: 5px solid rgb(0, 178, 223);
+    padding:20px;
+    margin-bottom: 50px;
+    font-size: 2em;
+    
+}
+
+.label-info:hover,
+.label-info:focus {
+background-color: #20f04d;
+}
+
+.product{
+    background: white;
+    margin: 20px;
+}
+
+.paypic{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.pinpad{
+    width: 200px;
+    height: 400px;
+}
+
+.product_table{
+    overflow: auto;
+    height:70%;
+}
+
+#content{
+    height:90%;
+}
+
+.topmargin{    
+    margin-top:5%;
+}
+
+
+.character{
+    max-height:130px;
+    line-height: 130px;
+}
+
+.audio{    
+    border : 3px solid rgb(71, 71, 71);
+    width:450px;
+    
+}
+
+.btn-static {
+    background-color: white;
+    border: 1px solid lightgrey;
+    cursor: default;
+  }
+  .btn-static:active {
+    -moz-box-shadow:    inset 0 0 0px white;
+    -webkit-box-shadow: inset 0 0 0px white;
+    box-shadow:         inset 0 0 0px white;
+  }
+
+  .prio-item{
+    
+    line-height: 80px;        
+    text-align: center;
+    border: 1px solid rgb(13, 9, 228);
+    background-color: white;
+    margin-bottom:5px;
+  }
+  .prio-item.green { 
+      background-color: coral; 
+      color:white 
+    }
+
+.prio-table{
+    height: 40px;
+}
+
+.lastbtn{
+    height:140px;
+}

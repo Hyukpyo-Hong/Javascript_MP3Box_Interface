@@ -1,0 +1,15 @@
+.pic {
+    height: 300px;    
+    
+}
+
+.pic-group{
+    margin-bottom: 20px;
+}
+
+.pic-border{
+    height:300px;
+    border:1px solid rgb(0, 0, 78);
+    text-align: center;
+    padding-top:50px;
+}

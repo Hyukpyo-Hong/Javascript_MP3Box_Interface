@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Part3</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/report.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <h5>
+            <a href="index.html">Back to Home</a>
+        </h5>
+        <div class="jumbotron">
+            <h2>Part 3 - System Prototype and Evaluation Plan</h2>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3 id='top'>Table of Contents</h3>
+                <ul>
+                    <li>
+                        <a href="#1">Project Description</a>
+                    </li>
+                    <li>
+                        <a href="#2">Requirements Summary</a>
+                    </li>
+                    <li>
+                        <a href="#3">Prototype</a>
+                    </li>
+                    <li>
+                        <a href="#4">An Overview of the Prototype</a>
+                    </li>
+                    <li>
+                        <a href="#5">Prototype in Detail</a>
+                    </li>
+                    <li>
+                        <a href="#6">Scenario from a User's Perspective</a>
+                    </li>
+                    <li>
+                        <a href="#7">Rationale</a>
+                    </li>
+                    <li>
+                        <a href="#8">Changed Requirements</a>
+                    </li>
+                    <li>
+                        <a href="#9">Initial Evaluation Plan</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <h3 id="1">Project Description</h3>
+        <h4>MP3 box is a edgy vedner machine for offering affordable MP3 player to those who prefer to use delicate and professional
+            devices to listen music. MP3 box would mainly locate at the shopping mall, supermarket, and the public where
+            has high daily human traffic, so that MP3 box not only can be accessed conveniently and can be protected from
+            damage.The devices be sold from MP3 box are MP3 players with multiple brands, styles, functionalities, colors,
+            whatsoever. User can easily operate MP3 box by following the menu on the screen for searching, selecting, or
+            purchasing their desire MP3 player. Even though sound track can be played by other different devices such as
+            smartphone, tablet, or laptop, lots of people still prefer to use a small but professional device like MP3 player
+            to listen music when they are not allowed or convenient to use other devices.</h4>
+        <h5>
+            <a href="#top">Back to Top</a>
+        </h5>
+
+        <h3 id="2">Requirements Summary</h3>
+        <h4>
+            The MP3 box is to provide an accessible site for purchasing a MP3 player conveniently, which requires the major condition
+            has to be considered, including secure location, friendly interface, and users who have basic understanding for
+            MP3 player. Due to the special product for MP3 box selling, the location for the MP3 box needs to be a secure
+            public place with high human traffic. Thus, places like supermarket or mall would be the best choice. Additionally,
+            a friendly interface could help user purchase a desired MP3 player fast and successfully. Also, having a basic
+            understanding towards MP3 player is required for potential customer so that they would still prefer to use MP3
+            player even though other devices can also play music.
+            <br/> Our summarized requirments are as below,
+            <ul>
+                <li>Location Characteristics</li>
+                <ul>
+                    <li>Public and high transient population</li>
+                    <li>Bright and roomy space to set machine</li>
+                    <li>Noisy environment</li>
+                </ul>
+                <li>User Characteristics - Common </li>
+                <ul>
+                    <li>Believe that MP3 player is superior music player than other devices</li>
+                    <li>Having general knowledge on the MP3 player, with possible functionalities</li>
+                    <li>Interested in sound quality of each device, and detail information</li>
+                </ul>
+                <li>User Characteristics - Difference </li>
+                <ul>
+                    <li> Different degree of knowledge and experience of a specific model</li>
+                    <li> Different purpose to operate the MP3 box, for example, to buy, get information, or just look around every
+                        products. </li>
+                </ul>
+                <li>Task Requirements</li>
+                <ul>
+                    <li>Provide friendly interface for users so that every customer can easily interact with MP3 box</li>
+                    <li>Figure out customer’s demand, for example, does he/she already bear a specific model in mind? Want to
+                        examine several models? Alternatively, want to get a recommendation?</li>
+                    <li>Show customized information for each customer with sound testing for each device.</li>
+                    <li>Keep security in open place during customer pay for the products.</li>
+                </ul>
+            </ul>
+        </h4>
+        <h5>
+            <a href="#top">Back to Top</a>
+        </h5>
+
+        <h3 id="3">Prototype</h3>
+        <h4>
+            Below button will open the new browser tab to show our prototype. This prototype is tested under Chrome browser version 61,
+            and with screen resolution of 1920 x 1080.
+            <br/>
+            <a class="btn btn-success" target="_blank" href="Prototype.html">
+                <h4>Open Prototype</h4>
+            </a>
+        </h4>
+        <h5>
+            <a href="#top">Back to Top</a>
+        </h5>
+
+        <h3 id="4">An Overview of the Prototype</h3>
+        <h4>We selected the third model from the step 2. This design focuses on making a friendly interface which feels like
+            to talk with a salesperson. Based on the user’s selection, the machine will respond similarly to live communication
+            in the store. We assumed that the possible clients have three types, the first type has a specific model in mind
+            before he comes to the machine, the second type wants to see the whole list, and the last type wants to get a
+            recommendation based on his demand. Our prototype is developed to satisfy these three types of customer.
+        </h4>
+        <h5>
+            <a href="#top">Back to Top</a>
+        </h5>
+
+        <h3 id="5">Prototype in Detail</h3>
+        <h4>
+            <p>
+                <strong>0. Common Process</strong>
+            </p>
+            <div class="row pic-group">
+                <div class="col-md-6">
+                    <img src="resources/img/p3-1.png" class="img-responsive pic">
+                    <p class="text-center">1. Welcome and initial page.</p>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="pic-border">
+                        <h3>
+                            <p>Select a product with one of the below methods.
+                                <br/>
+                                <small>Each method will be examined in following section</small>
+                            </p>
+                            <br>1. Direct Search Method
+                            <br>2. Search Whole List Method
+                            <br>3. Get Recommendation Method</h3>
+                    </div>
+                    <p class="text-center">2. With one of the three method, customer select the product.</p>
+                </div>
+            </div>
+            <div class="row pic-group">
+                <div class="col-md-6">
+                    <img src="resources/img/p3-2.png" class="img-responsive pic">
+                    <p class="text-center">3. After product selection, customer can check the detail of the product, then move to payment or sound
+                        test screen.</p>
+                </div>
+                <div class="col-md-6 ">
+                    <img src="resources/img/p3-3.png" class="img-responsive pic">
+                    <p class="text-center">4. In sound test screen, user can hear the recorded audio file from MP3 player.</p>
+                </div>
+            </div>
+            <div class="row pic-group">
+                <div class="col-md-6 ">
+                    <img src="resources/img/p3-4.png" class="img-responsive pic">
+                    <p class="text-center">5. In payment screen, users can select one of the method they prefer.</p>
+                </div>
+                <div class="col-md-6 ">
+                    <img src="resources/img/p3-5.png" class="img-responsive pic">
+                    <p class="text-center">6. Real payment can be done in pinpad device. Or user can back to previous page or home screen. This
+                        backward functions are avaiable all through the screen.</p>
+                </div>
+            </div>
+            <p>
+                <strong>1. Direct Search Method</strong>
+            </p>
+            <div class="row pic-group">
+                <div class="col-md-6">
+                    <img src="resources/img/p3-a1.png" class="img-responsive pic">
+                    <p class="text-center">1. To search specific model, user should click the menu 'I know the model name.'</p>
+                </div>
+                <div class="col-md-6 ">
+                    <img src="resources/img/p3-a2.png" class="img-responsive pic">
+                    <p class="text-center">2. Using keypad on the screen, user input some keyword related to the product. In this prototype, if
+                        you click keypad onetime, sample keyword will be input.</p>
+                </div>
+            </div>
+            <div class="row pic-group">
+                <div class="col-md-6">
+                    <img src="resources/img/p3-a3.png" class="img-responsive pic">
+                    <p class="text-center">3. Once keyword is begun to input, recommended model name will be shown below the form. User should select
+                        one of the recommendation.</p>
+                </div>
+                <div class="col-md-6 ">
+                </div>
+            </div>
+            <p>
+                <strong>2. Search Whole List Method</strong>
+            </p>
+            <div class="row pic-group">
+                <div class="col-md-6">
+                    <img src="resources/img/p3-a1.png" class="img-responsive pic">
+                    <p class="text-center">1. To see whole list, user should click the menu 'I need your help.' </p>
+                </div>
+                <div class="col-md-6 ">
+                    <img src="resources/img/p3-b1.png" class="img-responsive pic">
+                    <p class="text-center">2. Then, user should click the menu 'Show me the Whole List' </p>
+                </div>
+            </div>
+            <div class="row pic-group">
+                <div class="col-md-6">
+                    <img src="resources/img/p3-b2.png" class="img-responsive pic">
+                    <p class="text-center">3. MP3 machine show you whole list of models that machine can provide.</p>
+                </div>
+                <div class="col-md-6 ">
+                    <img src="resources/img/p3-b3.png" class="img-responsive pic">
+                    <p class="text-center">4. User can use filter function right to the list, in this screen we sorted by price</p>
+                </div>
+            </div>
+            <p>
+                <strong>3. Get Recommendation Method</strong>
+            </p>
+            <div class="row pic-group">
+                <div class="col-md-6">
+                    <img src="resources/img/p3-a1.png" class="img-responsive pic">
+                    <p class="text-center">1. To get recommendation, user should click the menu 'I need your help.' </p>
+                </div>
+                <div class="col-md-6 ">
+                    <img src="resources/img/p3-b1.png" class="img-responsive pic">
+                    <p class="text-center">2. Then, user should click the menu 'Recommend me the model.'</p>
+                </div>
+            </div>
+            <div class="row pic-group">
+                <div class="col-md-6">
+                    <img src="resources/img/p3-c1.png" class="img-responsive pic">
+                    <p class="text-center">3. User can select up to five priorities than he think most important things to purchase MP3 player.
+                        Then, user need to click the menu 'Click here to see the result'.</p>
+                </div>
+                <div class="col-md-6 ">
+                    <img src="resources/img/p3-c2.png" class="img-responsive pic">
+                    <p class="text-center">4. If more than five priorities are selected, the machine will warn about that. </p>
+                </div>
+            </div>
+            <div class="row pic-group">
+                <div class="col-md-6">
+                    <img src="resources/img/p3-c3.png" class="img-responsive pic">
+                    <p class="text-center">5. MP3 machine show you list of recommendation.</p>
+                </div>
+                <div class="col-md-6 ">
+                    <img src="resources/img/p3-c4.png" class="img-responsive pic">
+                    <p class="text-center">6. User can use filter function right to the list, in this screen we sorted by price </p>
+                </div>
+            </div>
+        </h4>
+        <h5>
+            <a href="#top">Back to Top</a>
+        </h5>
+
+        <h3 id="6">Scenario from a User's Perspective</h3>
+        <h4>
+            <ul>
+                <li>
+                    <h4>
+                        17 years old boy Tom have a lot of knowledge and trend of newest MP3 player. One day found a very good product from the magazine,
+                        then decided to purchase that model. He went to the MP3 box, and touched the button to search the
+                        model name. When he entered a few word, the MP3 box shows recommended model list on the screen, so
+                        that Tom could easily search the product and purchase it.
+                    </h4>
+                </li>
+                <li>
+                    <h4>
+                        25-year-old man, Brown decided to purchase an MP3 player to listen during exercise. Because many of his colleagues have MP3
+                        players and enjoy to share the information about their products, Brown already know several products,
+                        but he could not remember they're correct name exactly. So he went to the MP3 box and asked the machine
+                        to show the whole list that it can provide. After he overviewed the whole list for a while, he found
+                        a model that one of his friend said it is a really good model. So he touched that model, and purchased
+                        it.
+                    </h4>
+                </li>
+                <li>
+                    <h4>
+                        32-Year-Old businessman Jack usually spend much time when he buys something. He likes to study new functionality and test
+                        it before purchasing. One day he went to the MP3 machine to see if there is a model he may like.
+                        He asked the machine to recommend some products, and the machine asked what his priorities to select
+                        an MP3 player are. Since Jack does not know some terms of functionality, he clicked some function
+                        name, and see what that meaning is. After he chooses several items, the machine recommended some
+                        products that he may prefer. Jack sorted the list by price, and brand name, and select the proper
+                        one for him. Finally he tested the sound of the MP3 player with headset to know its sound quality.
+                    </h4>
+                </li>
+            </ul>
+        </h4>
+        <h5>
+            <a href="#top">Back to Top</a>
+        </h5>
+
+        <h3 id="7">Rationale</h3>
+        <h4>
+            One of our concern about the possible customers is that although they already have some degree of knowledge of the MP3 player,
+            they might have a different level of knowledge, and difference preference for the buying experience. Given these
+            assumptions, our prototype suggests three different methods to find products. Out three methods to find a product;
+            direct search, whole list search, recommendation search will satisfy all types of customers.
+            <br/> Also, with using Salesperson character and conversation style interface, we tried to make customers friendly
+            feeling. Some people may feel uncomfortable when they purchase expensive or complicated electronic device from
+            the non-human vending machine. So, this artificial salesperson can reduce those sense of difference.
+            <br/> Finally, one of the advantages of consulting with a salesperson is getting information about the products, and
+            recommendation which can fit our preference. So we implemented recommendation interface which can explain technical
+            jargon of MP3 player, and make a suggestion based on users priorities.
+            <br/> However, several problems can occur in Recommendation system. Because categorizing all the people’s preference
+            and making an algorithm which can provide suggesting list based on only several keywords that user checked. So
+            it will take some time to make robust system which has sufficient database and proper algorithm.
+            <br/> Based on these reasons, we made our prototype to meet our requirement, and evaluate how much our interface can
+            satisfy our possible customers.
+        </h4>
+        <h5>
+            <a href="#top">Back to Top</a>
+        </h5>
+
+        <h3 id="8">Changed Requirements</h3>
+        <h4>After several discussion for our prototype, we found that voice recognition in the third model of Part2 is hard to
+            make in our prototype, although its advantages are not so much. In fact, our assumption of the location where
+            the MP3 box is, open and public space that there are many people and some degree of noisy. So, voice recognition
+            function is not proper for the location and it was removed from our prototype. And we added a new function which
+            can explain terms of an MP3 player. For example, some people can don’t know what is the ‘Lyric supporting’ or
+            ‘various EQ setting’ although they are already familiar with the MP3 player. Therefore, we added this explanation
+            function on the recommendation interface, to show its detail whenever the user clicks their priority. </h4>
+        <h5>
+            <a href="#top">Back to Top</a>
+        </h5>
+
+        <h3 id="9">Initial Evaluation Plan</h3>
+        <h4>
+            Our usability criteria will focus on evaluating how much our project requirements which derived from the work of part1 through
+            part3, can be satisfied. Therefore, the list of main criteria are as below,
+            <br/>
+            <ul>
+                <li>
+                    Location Suitability: Is our prototype is suitable for open and public space where many people are around the device, and
+                    some degree of noise is there.
+                </li>
+                <li>
+                    Satisfy common user characteristics: Is our prototype support only necessary information, or interaction with our possible
+                    customers? Is there any unnecessary and wordy explanation which can interfere the user experience?
+                </li>
+                <li>
+                    Satisfy different user characteristics: Is our prototype suggest various methods which can satisfy different user preference?
+                    Is it support sufficient information when user request? Is it easy to find proper buttons or components
+                    on the screen when the user needs?
+                </li>
+                <li>
+                    Convenience Interface: Is our prototype support user-friendly interface which makes user feels in a real store with a real
+                    salesperson? Can user test the device’s performance? Is it safe when user make payment?
+                </li>
+            </ul>
+            To evaluate our prototype, we will consider three techniques which can give us sufficient feedback so that we can understand
+            how much our requirements are satisfied, and what is possible problems in the prototype
+            <ol>
+                <li>
+                    Think aloud and cooperative evaluation
+                    <ul>
+                        <li>
+                            We will provide our prototype to make user test by himself, and ask them to speak aloud whatever they think. During the session,
+                            we will ask them an additional question such as ‘Why’ or ‘What if’ style to make them test all
+                            of the functionalities in the interface.
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    Interview
+                    <ul>
+                        <li>
+                            After we test our prototype with ’ Think aloud and cooperative evaluation’ method, we will perform interview to gathering
+                            more high-level information such as user preferences, impressions, and attitudes. Also, to do
+                            an effective interview, we will also use following questions to get more structured information
+                            during the interview.
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    Heuristic evaluation
+                    <ul>
+                        <li>
+                            As we mentioned above, during the interview, we will provide following question based on the Nielsen’s ten heuristics. More
+                            specific questions are as below,
+
+                        </li>
+                    </ul>
+                    <ol>
+                        <li>Visibility of system status</li>
+                        <ul>
+                            <li> Does the website have clearly notification about the system status to users? Does the system
+                                offer enough time for user’s operation? </li>
+                            <li> Does the information in the system promote quickly enough? </li>
+                            <li> Does the system contain the unnecessary information or feedback to slow user down?</li>
+                            <li>Does the system contain the confusing information to mislead user? </li>
+                        </ul>
+                        <li>Match between System and the Real World</li>
+                        <ul>
+                            <li> Does the system use expressions or terms not match the users’ habits, including the unfamiliar
+                                expressions or terms?</li>
+                            <li> Weather the system language is system oriented or user oriented?</li>
+                            <li> Does the task process not show the users’ actual operation?</li>
+                            <li> Does the system structure not match the user’ understanding towards real world?</li>
+                            <li> Does the system combine all the relative functionalities correctly?</li>
+                        </ul>
+                        <li>User Control and Freedom</li>
+                        <ul>
+                            <li> Are there enough alerts or notifications before the unchangeable operation in the system?</li>
+                            <li> Does the system have the cancellation function in the appropriate way? </li>
+                            <li> Is the cancellation button easy to find for users?</li>
+                            <li> Does the system support the cancellation functionality?</li>
+                        </ul>
+                        <li>Consistency and Standards</li>
+                        <ul>
+                            <li>Are the elements of interface, layout, and groups consistent?</li>
+                            <li> Are the names of the same UI elements consistent?</li>
+                            <li> Are the formats of the all information from the system consistent?</li>
+                            <li> Does the system operate the object with different methods?</li>
+                            <li> Does the system apply colors with different meaning?</li>
+                        </ul>
+                        <li>Error Prevention</li>
+                        <ul>
+                            <li>Is it easy for user understanding or learning the elements displayed on UI?</li>
+                            <li>Does the system notify the formation of inputting information?</li>
+                            <li>Does the system imply user for the text area or disable button?</li>
+                            <li>Are there similar elements on UI with different functionalities?</li>
+                        </ul>
+                        <li>Recognition Rather Than Recall</li>
+                        <ul>
+                            <li>Is the system so complicated that user has to memorize the operation?</li>
+                            <li>Is the information offered from the interface simultaneously?</li>
+                            <li>Does the images or symbols on UI mislead the users?</li>
+                            <li>Does the menu or links have too many layers?</li>
+                        </ul>
+                        <li>Flexibility and Minimalist Design</li>
+                        <ul>
+                            <li>Does the window design appropriately?</li>
+                            <li>Does the system provide the default value?</li>
+                        </ul>
+                        <li> Aesthetic and Minimalist Design</li>
+                        <ul>
+                            <li>Are the elements on UI too big or too small?</li>
+                            <li>Are the elements on UI very distracting or upset?</li>
+                        </ul>
+                        <li>Help Users Recognize, Diagnose, and Recover From Errors</li>
+                        <ul>
+                            <li>Does the error information use inappropriate words or expression?</li>
+                            <li>Does the error message confuse the users?</li>
+                        </ul>
+                        <li> Help and Documentation</li>
+                        <ul>
+                            <li>Does the helping information provide very clear instruction?</li>
+                            <li>Does the system provide help information to users?</li>
+                        </ul>
+                    </ol>
+                </li>
+            </ol>
+
+
+
+
+        </h4>
+        <h5>
+            <a href="#top">Back to Top</a>
+        </h5>
+
+    </div>
+</body>
+
+</html>
